@@ -8,20 +8,38 @@
 </head>
 <body>
     <header>
-        <img
-        srcset=""
-        src="/assets/images/portrait1_640px.jpg"
-        alt=""
-        id="headerPhoto">
+        <picture>
+            <source
+                srcset="/assets/images/portrait1_1to1_640px.jpg"
+                media="(min-width: 601px)">
+            <img
+            src="/assets/images/portrait1_640px.jpg"
+            alt=""
+            id="headerPhoto">
+        </picture>
         <section>
             <h2>About me</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorum consequuntur, alias voluptatum error ab ex sunt atque blanditiis quia excepturi quaerat, voluptate illo ducimus, nisi doloribus Incidunt aut aspernatur distinctio iure cum adipisci deserunt necessitatibus non reiciendis!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egestas tortor sed iaculis imperdiet. Nulla ornare tempus leo, in placerat elit mollis vel. Morbi tincidunt varius diam, in venenatis augue luctus a. Suspendisse ultrices sodales augue, condimentum dignissim risus mollis non. Nunc et elit et odio accumsan sodales. In mollis, risus sit amet pulvinar eleifend, turpis metus tincidunt diam, vitae consectetur urna nulla at erat.</p>
         </section>
     </header>
 
     <main>
         <h2>My work</h2>
         <section class="gridContainer">
+            <div>
+                <img class="projectImg" src="assets/images/portrait1_640px.jpg" alt="">
+                <div class="projectInfo">
+                    <h3>Project name</h3>
+                    <p>Short description of the project. Just a couple sentences to fill up the space.</p>
+                </div>
+            </div>
+            <div>
+                <img class="projectImg" src="assets/images/portrait1_640px.jpg" alt="">
+                <div class="projectInfo">
+                    <h3>Project name</h3>
+                    <p>Short description of the project. Just a couple sentences to fill up the space.</p>
+                </div>
+            </div>
             <div>
                 <img class="projectImg" src="assets/images/portrait1_640px.jpg" alt="">
                 <div class="projectInfo">
