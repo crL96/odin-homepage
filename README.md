@@ -2,6 +2,8 @@
 
 Project within "The Odin Project" - Path: Full Stack Javascript - Course: Advanced HTML/CSS - Project: Homepage
 
+Link to page: https://crl96.github.io/odin-homepage/
+
 
 Project description:
 
